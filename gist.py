@@ -24,5 +24,6 @@ import subprocess
 # p1.stdout.close()  # Allow p1 to receive a SIGPIPE if p2 exits.
 # output = p2.communicate()[0]
 
-output = subprocess.check_output("git add . && git commit -m 'commit from python subprocess module' && git push origin master", shell=True)
-print(output.decode())
+# output = subprocess.check_output("git add . && git commit -m 'commit from python subprocess module' && git push origin master", shell=True)
+# print(output.decode())
+
